@@ -1,0 +1,92 @@
+[
+    {
+        "id": 49,
+        "symbol": null,
+        "address": "0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa",
+        "image_url": null,
+        "name": null,
+        "decimals": 18,
+        "eth_price": null,
+        "usd_price": null
+    },
+    {
+        "id": 44,
+        "symbol": "FLD",
+        "address": "0x6cc6dbef78d46e30bea6d90fcffc4dc77d502d30",
+        "image_url": "https://lh3.googleusercontent.com/zRXcb8ouLldNhGuC_2O3hLsS08aaPO24cX0Jh7TXI0kPYDV9PfsLTY7yDM3R6BiCMB9ANdaofeHlv5gJdgOBMio=s120",
+        "name": "FieldCoin V5",
+        "decimals": 18,
+        "eth_price": null,
+        "usd_price": null
+    },
+    {
+        "id": 41,
+        "symbol": "CHERRY",
+        "address": "0xc71cdbc70a277b639d4bd36634901e438456920a",
+        "image_url": "https://lh3.googleusercontent.com/OoLS2ouLS7tWGoC1bwZ2rL59YmmKp2SmCY8kY4nhRmzW85b-pwX7WUsJvjvCx1MiT_4sUQcpSrOmtt1IP8pmHSw=s120",
+        "name": "Cherry",
+        "decimals": 18,
+        "eth_price": null,
+        "usd_price": null
+    },
+    {
+        "id": 7,
+        "symbol": "SAND",
+        "address": "0xcc933a862fc15379e441f2a16cb943d385a4695f",
+        "image_url": "https://lh3.googleusercontent.com/aei3sIXr_RfD5weshVzzS2TvO7IE0UFUysC0uVrO_BftKrsilBQiMSezHoDd32YZsFN-orpKSKDM8WLWKkmLuyw8=s120",
+        "name": "SAND",
+        "decimals": 18,
+        "eth_price": null,
+        "usd_price": null
+    },
+    {
+        "id": 6,
+        "symbol": "HOE",
+        "address": "0x7022729cf74dd49e1a1895d4027039700a9d00eb",
+        "image_url": "https://storage.googleapis.com/opensea-static/tokens/HOE.png",
+        "name": "Heroes of Ether Token",
+        "decimals": 18,
+        "eth_price": "0.000000100000000",
+        "usd_price": "0.000031300000000000"
+    },
+    {
+        "id": 5,
+        "symbol": "OST",
+        "address": "0xb3a5762c2d0c062b6dd3d5b7bc3f64413be19543",
+        "image_url": "https://lh3.googleusercontent.com/QMocX-tmkR-fPRTzoZo5Gajo_gXKhC3rDNUZT2mpVF3jluKvu7RZhg4GNwUD9za9GkmAVih9uvKtvBg6bPh_C60",
+        "name": "OpenSea Token",
+        "decimals": 18,
+        "eth_price": null,
+        "usd_price": null
+    },
+    {
+        "id": 3,
+        "symbol": "MANA",
+        "address": "0x0f8528c53fecb54b7005525a3e797e261a51b88e",
+        "image_url": "",
+        "name": "Decentraland MANA",
+        "decimals": 18,
+        "eth_price": "0.000229733251026",
+        "usd_price": "0.093191293278739498"
+    },
+    {
+        "id": 2,
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "image_url": "",
+        "name": null,
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "405.649999999999977263"
+    },
+    {
+        "id": 1,
+        "symbol": "WETH",
+        "address": "0xc778417e063141139fce010982780140aa0cd5ab",
+        "image_url": "https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg",
+        "name": "",
+        "decimals": 18,
+        "eth_price": "1.000000000000000",
+        "usd_price": "2800.880000000000109000"
+    }
+]

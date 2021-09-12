@@ -8,6 +8,7 @@ import {
 } from '../constants'
 import * as ordersJSONFixture from '../fixtures/orders.json'
 import * as assetsJSONFixture from '../fixtures/assets.json'
+import * as tokensJSONFixture from '../fixtures/tokens.json'
 
 import Debug from "debug";
 const debug = Debug("MyApp");
@@ -46,13 +47,12 @@ export default ({ app }: TRoutesInput) => {
         return res.send({ success: true });
     });
 
-
-
     app.get(`${API_PATH}/asset/:tokenAddress/:tokenId/`, async (req, res) => {
         debug(req.query)
         debug(req.params)
-
-        return res.send(assetsJSONFixture);
+        let s = assetsJSONFixture.assets.filter(a=>a.asset_contract.address==req.params.tokenAddress && a.token_id==req.params.tokenId);
+        // console.log(s)
+        return res.send(s==undefined || s.length==0?assetsJSONFixture.assets[0]:s[0]);
     });
 
     app.get(`${API_PATH}/assets/`, async (req, res) => {
@@ -63,17 +63,12 @@ export default ({ app }: TRoutesInput) => {
     });
 
     app.get(`${API_PATH}/tokens/`, async (req, res) => {
-        debug(req.query)
-        debug(req.params)
-        return res.send({
-            name: "token.name",
-            symbol: "token.symbol",
-            decimals: "token.decimals",
-            address: "token.address",
-            image_url: "token.image_url",
-            eth_price: "token.eth_price",
-            usd_price: "token.usd_price",
-        });
+        debug("query=",req.query)
+        debug("params=",req.params)
+        // debug(tokensJSONFixture)
+        let s = tokensJSONFixture.tokens.filter(a=>a.symbol==req.query.symbol)
+        // debug("s====",s)
+        return res.send(s==undefined || s.length==0?tokensJSONFixture.tokens.slice(0,1):s);
     });
 
     app.get(`${API_PATH}/bundle/:slug/`, async (req, res) => {
