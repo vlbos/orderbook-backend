@@ -57,7 +57,7 @@
             "address": "0x0000000000000000000000000000000000000000",
             "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
             "name": "Ether",
-            "decimals": 18,
+            "decimals": 9,
             "eth_price": 1.0,
             "usd_price": 3267.32
           },
@@ -77,7 +77,7 @@
             "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
             "image_url": "https://storage.opensea.io/files/8ef8fb3fe707f693e57cdbfea130c24c.svg",
             "name": "Dai Stablecoin",
-            "decimals": 18,
+            "decimals": 9,
             "eth_price": 0.00030606123673224535,
             "usd_price": 1.0
           },
@@ -87,7 +87,7 @@
             "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
             "image_url": "https://storage.opensea.io/files/accae6b6fb3888cbff27a013729c22dc.svg",
             "name": "Wrapped Ether",
-            "decimals": 18,
+            "decimals": 9,
             "eth_price": 1.0,
             "usd_price": 3267.32
           },
@@ -107,7 +107,7 @@
             "address": "0x09fe5f0236f0ea5d930197dce254d77b04128075",
             "image_url": "https://lh3.googleusercontent.com/L5nvau4G9vXrA4AUs8OLxddBBEQHQZgUuUqnv9PzGo5mMgDm3_7pKhy8HPeWnqYCqKBi3MkhY6vpzq0HnV4aAEY",
             "name": "Wrapped CryptoKitties",
-            "decimals": 18,
+            "decimals": 9,
             "eth_price": 0.0024178837701847385,
             "usd_price": 7.9
           },
@@ -117,7 +117,7 @@
             "address": "0x0eed7d6564fae0c22a7dc9ebb3db4a4c4a1473ee",
             "image_url": "https://lh3.googleusercontent.com/DRoQ7e9zCHgk8CLcTpKxYTIIFyG8qzlsW3wPFY_NiVVdScylei8jbXHua49Bp--j7tNIvTYxftIwpEuatgUxsN8AeA",
             "name": "Cherry",
-            "decimals": 18,
+            "decimals": 9,
             "eth_price": 4.161955364029235e-6,
             "usd_price": 0.01359844
           }
@@ -326,7 +326,7 @@
           "address": "0x0000000000000000000000000000000000000000",
           "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
           "name": "Ether",
-          "decimals": 18,
+          "decimals": 9,
           "eth_price": "1.000000000000000",
           "usd_price": "3265.449999999999818000"
         },

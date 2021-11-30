@@ -1,3 +1,6 @@
+mongod --dbpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/data --logpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/log/mongod.log   
+
+
 # Mongoose TypeScript example
 
 [![Known Vulnerabilities](https://snyk.io/test/github/tomanagle/Mongoose-TypeScript-example/badge.svg?targetFile=package.json)](https://snyk.io/test/github/tomanagle/Mongoose-TypeScript-example?targetFile=package.json)

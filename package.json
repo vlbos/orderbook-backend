@@ -6,6 +6,8 @@
   "author": "Tom Nagle",
   "scripts": {
     "dev": "nodemon",
+    "start": "ts-node src/index.ts",
+    "mon": "mongod --dbpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/data --logpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/log/mongod.log",
     "test": "jest",
     "test:order": "jest /models/__TESTS__/order.test.ts"
   },
