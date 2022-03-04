@@ -52,7 +52,7 @@
       {
         "id": 13689077,
         "symbol": "ETH",
-        "address": "0x0000000000000000000000000000000000000000",
+        "address": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
         "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
         "name": "Ether",
         "decimals": 18,
@@ -321,7 +321,7 @@
     "payment_token": {
       "id": 1,
       "symbol": "ETH",
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
       "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
       "name": "Ether",
       "decimals": 18,

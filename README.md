@@ -1,5 +1,5 @@
 mongod --dbpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/data --logpath /usr/local/mongodb/mongodb-macos-x86_64-5.0.1/log/mongod.log   
-
+ --fork
 
 # Mongoose TypeScript example
 

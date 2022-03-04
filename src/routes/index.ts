@@ -38,7 +38,8 @@ export default ({ app }: TRoutesInput) => {
 
     app.get(`${ORDERBOOK_PATH}/orders/`, async (req, res) => {
         debug(req.query)
-        return res.send({ orders: ordersJSONFixture });
+
+        return res.send(ordersJSONFixture);
     });
 
     app.post(`${API_PATH}/asset/:tokenAddress/:tokenId/whitelist/`, async (req, res) => {
