@@ -93,7 +93,7 @@
       "metadata": {
         "asset": {
           "id": "2",
-          "address": "5CMStp6FsUNjU78d9ET5VswnHkMtHR7rUCQQEmFBRNLUsqTL"
+          "address": "5ESMmyRckEmHguGJBJGeywWThWF6stqhrSnXJv4Qk5ZE7jbV"
         },
         "schema": "ERC721"
       },
@@ -101,13 +101,13 @@
       "maker": {
         "user": { "username": "c0inzdotTEST" },
         "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/16.png",
-        "address": "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
+        "address": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
         "config": ""
       },
       "taker": {
         "user": { "username": "NullAddress" },
         "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/1.png",
-        "address": "5FHneW46xGXgs5mUiveU4sbTyGBzmstUspZC92UhjJM694ty",
+        "address": "5C4hrfjw9DjXZTzV3MwzrrAr9P1MJhSrvWGWqi1eSuyUpnhM",
         "config": ""
       },
       "current_price": "50000000000000000",
@@ -115,29 +115,29 @@
       "bounty_multiple": "0.01",
       "maker_relayer_fee": "250",
       "taker_relayer_fee": "0",
-      "maker_protocol_fee": "0",
-      "taker_protocol_fee": "0",
+      "maker_protocol_fee": "2",
+      "taker_protocol_fee": "2",
       "maker_referrer_fee": "0",
       "fee_recipient": {
         "user": { "username": null },
         "profile_img_url": "https://storage.googleapis.com/opensea-static/opensea-profile/28.png",
-        "address": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
+        "address": "5C4hrfjw9DjXZTzV3MwzrrAr9P1MJhSrvWGWqi1eSuyUpnhM",
         "config": ""
       },
       "fee_method": 1,
       "side": 1,
       "sale_kind": 0,
-      "target": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
+      "target": "5HjfpJY1udFo143xVCoGwd2zVB5N4brbySru2yzVfTGy6x9f",
       "how_to_call": 0,
       "calldata": "0x23b872dd000000000000000000000000f70d79db1997ca11782a9ff70cad40161097621600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002",
       "replacement_pattern": "0x000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000",
       "static_target": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
       "static_extradata": "",
-      "payment_token": "5CaRw9VCzZxtnaTjJzWw6NNwi4D9h3yur7akGybuG4wWXaJW",
+      "payment_token": "5F3WvKapwKVbgqCbtMRqYzr9obbDAje4H887cpw1ZqLcybN2",
       "payment_token_contract": {
         "id": 2,
         "symbol": "ETH",
-        "address": "5DghaCqZ1zrx6hN8oGFWXLzrB6m2wV1CLLyWLHovdCrsu5W2",
+        "address": "5F3WvKapwKVbgqCbtMRqYzr9obbDAje4H887cpw1ZqLcybN2",
         "image_url": "https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg",
         "name": null,
         "decimals": 18,
